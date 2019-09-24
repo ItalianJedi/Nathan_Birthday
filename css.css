@@ -42,11 +42,28 @@ body {
   text-align: justify;
 }
 
+@media only screen and (max-width: 600px) {
+  .star-wars {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 150%;
+    font-weight: 400;
+    letter-spacing: 6px;
+    line-height: 150%;
+    perspective: 200px;
+    text-align: justify;
+  }
+}
+
 .crawl {
   position: relative;
   top: 9999px;
   transform-origin: 50% 100%;
-  animation: crawl 90s linear;
+  animation: crawl 60s linear;
 }
 
 .crawl > .title {
